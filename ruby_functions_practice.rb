@@ -88,6 +88,16 @@ def number_to_short_month_name(month_number)
   end
 end
 
-def volume_of_a_cube(side_length)
+def volume_of_cube(side_length)
   return side_length * side_length * side_length
+end
+
+def volume_of_sphere(radius)
+  # V = ⁴⁄₃πr³
+  return 4/3 * 3.14 * (radius * radius * radius)
+end
+
+def fahrenheit_to_celsius(farhrenheit)
+  # (32°F − 32) × 5/9 = 0°C
+  return (farhrenheit - 32) * (5/9)
 end
